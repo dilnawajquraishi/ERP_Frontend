@@ -64,7 +64,10 @@ import Costingform from "./orderManagement/Order_List/costing/Costingform";
 import Samplelist from "./orderManagement/Order_List/sample/Samplelist";
 import Addnewsample from "./orderManagement/Order_List/sample/Addnewsample";
 import Addnewshipmentlist from "./orderManagement/Order_List/shipment_list/Addnewshipmentlist";
-
+import Duesupplierlist from "./Party_Due_list/DueSupplierlist";
+import Creditvoucher from './Party_Due_list/Creditvoucher';
+import Debitvoucher from './Party_Due_list/Debitvoucher';
+import Createcredit from "./Party_Due_list/CreateCredit";
 
 
 
@@ -139,6 +142,9 @@ function App() {
             <Route path="/addbuyer" element={<Addbuyer/>} />
             <Route path="/suppliers" element={<Supplierlist/>} />
             <Route path="/buyerduelist" element={<Allbuyerduelist/>} />
+            <Route path="/duesypplierlist" element={<Duesupplierlist/>} />
+
+            
             {/* <Route path="/shipmentlist" element={<Shipmentslist/>} /> */}
             <Route path="/addnewshipment" element={<Addnewshipmentlist/>} />
 
@@ -150,8 +156,16 @@ function App() {
             <Route path="/add_new_booking" element={<Add_New_Booking/>} />
             <Route path="/budget_list" element={<Budget_list/>} />
             <Route path="/costingform" element={<Costingform/>} />
-            <Route path="samplelist" element={<Samplelist/>} />
-            <Route path="addnewsample" element={<Addnewsample/>} />
+            <Route path="/samplelist" element={<Samplelist/>} />
+            <Route path="/addnewsample" element={<Addnewsample/>} />
+
+            {/* Party Due List */}
+
+            <Route path="/creditvoucher" element={<Creditvoucher/>} />
+            <Route path="/debitvoucher" element={<Debitvoucher/>} />
+            <Route path="/createcredit" element={<Createcredit/>} />
+            <Route path="/createdebit" element={<Debitvoucher/>} />
+
 
 
 
