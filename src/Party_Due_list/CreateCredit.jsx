@@ -7,8 +7,8 @@ const Createcredit = () => {
          <div className='w-auto mt-3 h-10 flex flex-row justify-between '> 
 <h1 className='fw-bold'>Create Voucher</h1>
 <div className='sub-div w-96 h-10'>
-<button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit List</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit Voucher</button>
+<Link to='/creditvoucher' className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit List</Link>
+<Link to='/createcredit' className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit Voucher</Link>
 
 </div>
       </div>

@@ -9,11 +9,18 @@ const Shipmentslist = () => {
         
       <div className='w-100 h-10 flex flex-row justify-between '> 
 <h1 className='fw-bold' style={{fontSize:"22px"}}>Shipment List</h1>
-<div className='sub-div w-80 h-10'>
-<Link to='/shipmentlist' className='w-28  text-white ms-3 h-10  bg-purple-600' style={{borderRadius:"5px"}}>Shipment List</Link>
-<Link to='/addnewshipment' className='w-40 h-10 ms-8 text-white  bg-purple-600 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Add New Shipment</Link>
 
+
+
+<div className='link-box w-80 h-10 flex flex-row  me-5 gap-5'style={{border:"1px solid purple",borderLeft:"none",borderRight:"none",borderTop:"none"}}> 
+<Link to='/shipmentlist' className='ordersummary h-10 w-60 pl-7 pt-2 pr-1  text-white bg-purple-500'>Shiment List
+</Link>
+<Link to='/addnewshipment'className='ordersummary h-10 w-60 pl-2 pt-2 text-white bg-purple-500'> Add New Shipment
+</Link>
 </div>
+
+
+
       </div>
       <hr className='bg-slate-700  w-100 mt-3'/>
       <div className='result-up w-100  mt-4 d-flex flex-row justify-between'>
