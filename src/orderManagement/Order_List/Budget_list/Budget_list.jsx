@@ -60,14 +60,7 @@ const [navbar, setnavbar] = useState(false);
         </div>
         <div  className='flex items-center gap-3'>
 
-      {/* <div className=' flex flex-row gap-4 text-4xl '>
-      <IoMdNotificationsOutline  />
-      </div> */}
-
-      {/* <div className='w-12 h-12 bg-slate-400 pl-2 pt-2 m-52b-2' style={{borderRadius:"50%"}}>
-<FaUserAlt className='pb-1' style={{fontSize:"33px"}} />
-
-</div> */}
+ 
         </div>
 
       </div>

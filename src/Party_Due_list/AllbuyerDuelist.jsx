@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Allbuyerduelist = () => {
   return (
@@ -6,10 +7,10 @@ const Allbuyerduelist = () => {
             <div className='w-auto pt-4 mt-10 h-10 flex flex-row justify-between '> 
 <h1 className='fw-bold ms-3'style={{fontSize:"20px"}}>Add Buyer Due List</h1>
 <div className='sub-div w-auto h-10'>
-<button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Buyer List</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Supplier List</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit Voucher</button>
-<button className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}> Debit Voucher </button>
+<Link to='/buyerduelist' className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Buyer List</Link>
+<Link to='/duesypplierlist' className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Supplier List</Link>
+<Link to='/creditvoucher' className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}>Credit Voucher</Link>
+<Link to='/debitvoucher' className='w-40 h-10 ms-8 ' style={{border:"1px solid purple",borderTop:"none",borderRight:"none",borderLeft:"none"}}> Debit Voucher </Link>
 
 </div>
       </div>
